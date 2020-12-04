@@ -3,10 +3,17 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:TestMainProject"
+        xmlns:local="clr-namespace:TestMainProject" 
+        
+        xmlns:testsubproject="clr-namespace:TestSubProject;assembly=TestSubProject"
+        
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <TextBlock> This is from the main project</TextBlock>
-    </Grid>
+    
+    <StackPanel>
+        <TextBlock HorizontalAlignment="Center"> This is from the main project</TextBlock>
+        <Rectangle Height="100"/>
+        <testsubproject:UserControl1></testsubproject:UserControl1>
+    </StackPanel>
+
 </Window>
