@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 using TestSubProject;
+using TestSubProjectTwo;
 
 namespace TestMainProject
 {
