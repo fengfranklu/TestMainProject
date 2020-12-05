@@ -5,15 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TestMainProject" 
         
-        xmlns:testsubproject="clr-namespace:TestSubProject;assembly=TestSubProject"
+     
         
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+
+    <!--xmlns:testsubproject="clr-namespace:TestSubProject;assembly=TestSubProject"-->
     
     <StackPanel>
         <TextBlock HorizontalAlignment="Center"> This is from the main project</TextBlock>
         <Rectangle Height="100"/>
-        <testsubproject:UserControl1></testsubproject:UserControl1>
+       
     </StackPanel>
-
+    <!--<testsubproject:UserControl1></testsubproject:UserControl1>-->
 </Window>
